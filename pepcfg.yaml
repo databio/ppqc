@@ -1,5 +1,0 @@
-project_name: ppqc
-metadata:
-  sample_table: samples.csv
-  pipeline_interface: $CODE/peppro/pipeline_interface.yaml
-  
