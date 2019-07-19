@@ -1,0 +1,11 @@
+SRR1693611,GRO,PE1,0,HelaS3,pause_index,
+SRR1693612,GRO,PE1,0,HelaS3,pause_index,
+SRR1554311,PRO,PE1,0,K562,fragment_size_PE1 / mRNAcontamination,
+SRR1552484,GRO,PE1,0,K562,pause_index,
+SRR7616134,PRO,PE1,0,Jurkat,fragment_size_PE1,"If alignment statistics are bad, then it has a 6mer UMI--I cannot determine from the publication/GEO entry"
+SRR7616133,PRO,PE1,0,Jurkat,fragment_size_PE1,"If alignment statistics are bad, then it has a 6mer UMI--I cannot determine from the publication/GEO entry"
+SRR8608055,PRO,PE2,8,HEK293T,fragment_size_PE2 / mRNAcontamination,
+SRR8608056,PRO,PE2,8,HEK293T,fragment_size_PE2 / mRNAcontamination,
+SRR8608057,PRO,PE2,8,HEK293T,fragment_size_PE2 / mRNAcontamination,
+SRR8608058,PRO,PE2,8,HEK293T,fragment_size_PE2 / mRNAcontamination,
+H9_rivanna_JPS,PRO,PE2,8,H9,fragment_size_PE2 / mRNAcontamination,
