@@ -3,7 +3,7 @@ name: PEPPRO
 
 metadata:
   sample_annotation: "peppro_paper.csv"
-  output_dir: "/project/shefflab/processed/peppro/paper/cutadapt/01_06_2020"
+  output_dir: "/project/shefflab/processed/peppro/paper/01_06_2020"
   pipeline_interfaces: "$CODE/peppro/pipeline_interface.yaml" 
   
 derived_columns: [read1, read2]
@@ -23,7 +23,6 @@ implied_columns:
       genome: hg38
       prealignments: human_rDNA
       max_len: -1
-      adapter: cutadapt
   umi_status:
     true_8:
       umi_len: 8
