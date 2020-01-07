@@ -11,7 +11,7 @@ derived_columns: [read1, read2]
 data_sources:
   R: "/project/shefflab/data/sra_fastq/{srr}.fastq.gz"
   S: "/project/shefflab/data/guertin/fastq/{srr}.fastq.gz"
-  S1: "/project/shefflab/data/guertin/fastq/{srr}.fastq"
+  S1: "/project/shefflab/data/guertin/fastq/{srr}.fastq.gz"
   H1: "/project/shefflab/data/guertin/fastq/{srr}_PE1.fastq.gz"
   H2: "/project/shefflab/data/guertin/fastq/{srr}_PE2.fastq.gz"
   R1: "/project/shefflab/data/sra_fastq/{srr}_1.fastq.gz"
