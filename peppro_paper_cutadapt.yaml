@@ -3,7 +3,7 @@ name: PEPPRO
 
 metadata:
   sample_annotation: "peppro_paper.csv"
-  output_dir: "/project/shefflab/processed/peppro/paper/cutadapt/01_06_2020"
+  output_dir: "/project/shefflab/processed/peppro/paper/cutadapt/01_09_2020"
   pipeline_interfaces: "$CODE/peppro/pipeline_interface.yaml" 
   
 derived_columns: [read1, read2]
