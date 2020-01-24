@@ -2,13 +2,9 @@
 name: PEPPRO
 
 metadata:
-  sample_table: "peppro_paper.csv"
-  output_dir: "/project/shefflab/processed/peppro/paper/cutadapt/01_22_2020"
+  sample_annotation: "peppro_paper.csv"
+  output_dir: "/project/shefflab/processed/peppro/paper/prioritize/01_22_2020"
   pipeline_interfaces: "$CODE/peppro/pipeline_interface.yaml" 
-
-bioconductor:
-  readFunName: readPepproGeneCounts
-  readFunPath: $CODE/peppro/BiocProject/readPepproGeneCounts.R
   
 derived_columns: [read1, read2]
 
@@ -27,10 +23,13 @@ implied_columns:
       genome: hg38
       prealignments: human_rDNA
       max_len: -1
-      adapter: cutadapt
+      adapter: fastp
   umi_status:
     true_8:
       umi_len: 8
     true_6:
       umi_len: 6
 
+pipeline_args:
+  peppro:
+    "--prioritize": NULL
