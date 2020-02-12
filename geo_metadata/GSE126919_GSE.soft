@@ -3,7 +3,8 @@
 !Series_geo_accession = GSE126919
 !Series_status = Public on Feb 23 2019
 !Series_submission_date = Feb 22 2019
-!Series_last_update_date = Mar 26 2019
+!Series_last_update_date = Oct 29 2019
+!Series_pubmed_id = 31467088
 !Series_summary = These experiments identify the primary response genes of ZNF143 in HEK-293T cells and the transcriptional response that results from treating cells with 500μM auxin.
 !Series_overall_design = Oryza sativa TIR1 was inserted into all copies of the AAVS1 locus in HEK-293T cells and a single clone was expanded. All subsequent genetic modifications were derived from this progenitor cell line. Genetic modifications include endogenously tagging ZNF143 with an auxin-inducible degron (AID) and insetion of Auxin Response Factor (OsARF16). Cells were treated with 500μM auxin for 90 minutes to degrade ZNF143. Progenitor cells were treated with 500μM Auxin for 3 hours as a control experiment.
 !Series_type = Expression profiling by high throughput sequencing

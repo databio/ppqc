@@ -3,18 +3,15 @@
 name: ppqc
 
 metadata:
-  sample_annotation: ppqc_annotation_revised.csv
-  sample_subannotation: ppqc_subannotation.csv
+  sample_annotation: ${SRAMETA}/ppqc/ppqc_annotation.csv
+  sample_subannotation: ${SRAMETA}/ppqc/ppqc_subannotation.csv
   output_dir: ${PROCESSED}/ppqc
-  pipeline_interfaces: ${CODE}/peppro/pipeline_interface.yaml
+  pipeline_interfaces: null
 
-derived_columns: [read1, read2]
+derived_columns: [data_source]
 
 data_sources:
   SRA: "${SRABAM}/{SRR}.bam"
-  MJGR1: "$DATA/guertin/proseq/fastq/{sample_name}_PE1.fastq.gz"
-  MJGR2: "$DATA/guertin/proseq/fastq/{sample_name}_PE2.fastq.gz"
-  
 
 implied_columns:
   organism:
