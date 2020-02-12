@@ -2,7 +2,6 @@
 
 
 Get source samples using geofetch
-
 ```
 geofetch -i sra_accessions.txt -n ppqc
 ```
@@ -15,6 +14,11 @@ rsync -r rivi:/project/shefflab/data/sra_meta/ppqc .
 Get RNA-seq spike-in samples here:
 ```
 wget http://big.databio.org/peppro/fastq/K562_[1-9]0pct_RNArc_r2.fastq.gz .
+```
+
+Valide the configuration file with [`eido`](https://github.com/pepkit/eido) like so:
+```
+eido -p peppro_paper.yaml -s http://schema.databio.org/pipelines/ProseqPEP.yaml
 ```
 
 Run in looper:
