@@ -3,7 +3,7 @@ name: PEPPRO
 
 metadata:
   sample_table: "peppro_paper.csv"
-  output_dir: "/project/shefflab/processed/peppro/paper/"
+  output_dir: "$PROCESSED/peppro/paper"
   pipeline_interfaces: "$CODE/peppro/pipeline_interface.yaml" 
   
 derived_columns: [read1, read2]
@@ -19,7 +19,6 @@ implied_columns:
     human:
       genome: hg38
       prealignments: human_rDNA
-      max_len: -1
   umi_status:
     true_8:
       umi_len: 8
