@@ -1,26 +1,33 @@
 # Run PEPPRO Paper representative samples through PEPPRO
 name: PEPPRO
 
-metadata:
-  sample_table: "peppro_paper.csv"
+sample_table: "peppro_paper.csv"
+looper:
   output_dir: "$PROCESSED/peppro/paper"
-  pipeline_interfaces: "$CODE/peppro/pipeline_interface.yaml" 
-  
-derived_columns: [read1, read2]
 
-data_sources:
-  R: "$DATA/sra_fastq/{srr}.fastq.gz"
-  S1: "$DATA/guertin/fastq/{srr}.fastq.gz"
-  H1: "$DATA/guertin/fastq/{srr}_PE1.fastq.gz"
-  H2: "$DATA/guertin/fastq/{srr}_PE2.fastq.gz"
-  
-implied_columns:
-  organism:
-    human:
-      genome: hg38
-      prealignments: human_rDNA
-  umi_status:
-    true_8:
-      umi_len: 8
-    true_6:
-      umi_len: 6
+sample_modifiers:
+  append:
+    pipeline_interfaces: "$CODE/peppro/pipeline_interface.yaml" 
+  derive:
+    attributes: 
+      - read1
+      - read2
+    sources:
+      R: "$DATA/sra_fastq/{srr}.fastq.gz"
+      S1: "$DATA/guertin/fastq/{srr}.fastq.gz"
+      H1: "$DATA/guertin/fastq/{srr}_PE1.fastq.gz"
+      H2: "$DATA/guertin/fastq/{srr}_PE2.fastq.gz"
+  imply:
+    - if:
+        organism: human
+      then:
+        genome: hg38
+        prealignments: human_rDNA
+    - if:
+        umi_status: true_8
+      then:
+        umi_len: 8
+    - if:
+        umi_status: true_6
+      then:
+        umi_len: 6
