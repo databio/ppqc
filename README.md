@@ -18,7 +18,7 @@ wget http://big.databio.org/peppro/fastq/K562_[1-9]0pct_RNArc_r2.fastq.gz .
 
 ## Validate the configuration file with [`eido`](https://github.com/pepkit/eido) like so:
 ```
-eido -p peppro_paper.yaml -s http://schema.databio.org/pipelines/ProseqPEP.yaml
+eido validate peppro_paper.yaml -s http://schema.databio.org/pipelines/ProseqPEP.yaml
 ```
 
 ## Create user-specific environment variables
