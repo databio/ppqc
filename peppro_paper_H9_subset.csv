@@ -1,0 +1,11 @@
+sample_name,sample_desc,source,treatment,toggle,protocol,organism,read_type,cell_type,purpose,umi_status,umi_length,data_source,read1,read2,srr,Sample_title,Sample_geo_accession,Sample_source_name_ch1
+H9_PRO-seq_10,10% subset H9 PRO-seq,H9_DMSO_rep2,DMSO,1,PRO,human,PAIRED,H9,depth comparison,true_8,8,SRA,P1,P2,H9_PRO-seq_10pct,H9_PRO-seq_10pct,GSM4214081,H9 cells
+H9_PRO-seq_20,20% subset H9 PRO-seq,H9_DMSO_rep2,DMSO,1,PRO,human,PAIRED,H9,depth comparison,true_8,8,SRA,P1,P2,H9_PRO-seq_20pct,H9_PRO-seq_20pct,GSM4214081,H9 cells
+H9_PRO-seq_30,30% subset H9 PRO-seq,H9_DMSO_rep2,DMSO,1,PRO,human,PAIRED,H9,depth comparison,true_8,8,SRA,P1,P2,H9_PRO-seq_30pct,H9_PRO-seq_30pct,GSM4214081,H9 cells
+H9_PRO-seq_40,40% subset H9 PRO-seq,H9_DMSO_rep2,DMSO,1,PRO,human,PAIRED,H9,depth comparison,true_8,8,SRA,P1,P2,H9_PRO-seq_40pct,H9_PRO-seq_40pct,GSM4214081,H9 cells
+H9_PRO-seq_50,50% subset H9 PRO-seq,H9_DMSO_rep2,DMSO,1,PRO,human,PAIRED,H9,depth comparison,true_8,8,SRA,P1,P2,H9_PRO-seq_50pct,H9_PRO-seq_50pct,GSM4214081,H9 cells
+H9_PRO-seq_60,60% subset H9 PRO-seq,H9_DMSO_rep2,DMSO,1,PRO,human,PAIRED,H9,depth comparison,true_8,8,SRA,P1,P2,H9_PRO-seq_60pct,H9_PRO-seq_60pct,GSM4214081,H9 cells
+H9_PRO-seq_70,70% subset H9 PRO-seq,H9_DMSO_rep2,DMSO,1,PRO,human,PAIRED,H9,depth comparison,true_8,8,SRA,P1,P2,H9_PRO-seq_70pct,H9_PRO-seq_70pct,GSM4214081,H9 cells
+H9_PRO-seq_80,80% subset H9 PRO-seq,H9_DMSO_rep2,DMSO,1,PRO,human,PAIRED,H9,depth comparison,true_8,8,SRA,P1,P2,H9_PRO-seq_80pct,H9_PRO-seq_80pct,GSM4214081,H9 cells
+H9_PRO-seq_90,90% subset H9 PRO-seq,H9_DMSO_rep2,DMSO,1,PRO,human,PAIRED,H9,depth comparison,true_8,8,SRA,P1,P2,H9_PRO-seq_90pct,H9_PRO-seq_90pct,GSM4214081,H9 cells
+H9_PRO-seq_100,100% subset H9 PRO-seq,H9_DMSO_rep2,DMSO,1,PRO,human,PAIRED,H9,depth comparison,true_8,8,SRA,P1,P2,H9_PRO-seq_100pct,H9_PRO-seq_100pct,GSM4214081,H9 cells

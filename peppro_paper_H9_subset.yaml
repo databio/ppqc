@@ -1,0 +1,24 @@
+# Run PEPPRO Paper representative samples through PEPPRO
+name: PEPPRO
+
+pep_version: 2.0.0
+sample_table: "peppro_paper_H9_subset.csv"
+
+looper:
+  output_dir: "$PROCESSED/peppro/paper"
+  pipeline_interfaces: ["$CODE/peppro/project_pipeline_interface.yaml"]
+
+sample_modifiers:
+  append:
+    pipeline_interfaces: ["$CODE/peppro/sample_pipeline_interface.yaml"]
+  derive:
+    attributes: [read1, read2]
+    sources:
+      P1: "${SRAFQ}/{srr}_PE1.fastq.gz"
+      P2: "${SRAFQ}/{srr}_PE2.fastq.gz"
+  imply:
+    - if:
+        organism: ["human", "Homo sapiens", "Human", "Homo_sapiens"]
+      then:
+        genome: hg38
+        prealignments: human_rDNA
