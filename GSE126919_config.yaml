@@ -1,0 +1,32 @@
+name: GSE126919
+
+pep_version: 2.0.0
+sample_table: GSE126919_annotation.csv
+
+looper:
+  output_dir: ${PROCESSED}/peppro/paper/GSE126919  # export PROCESSED=/path/to/parent/output_dir
+  pipeline_interfaces: ${CODE}/peppro/project_pipeline_interface.yaml  # export CODE=/path/to/peppro/parent_dir
+
+sample_modifiers:
+  append:
+    pipeline_interfaces: ${CODE}/peppro/sample_pipeline_interface.yaml
+  derive:
+    attributes: [read1, read2]
+    sources:
+      FQ1: "${SRAFQ}/{SRR}_1.fastq.gz"  # export SRAFQ=/path/to/fastq_folder
+      FQ2: "${SRAFQ}/{SRR}_2.fastq.gz"      
+  imply:
+    - if: 
+        organism: ["human", "Homo sapiens", "Human", "Homo_sapiens"]
+      then:
+        genome: hg38
+        prealignments: human_rDNA         
+    - if: 
+        read_type: "PAIRED"
+      then:
+        read1: FQ1
+        read2: FQ2          
+    - if: 
+        read_type: "SINGLE"
+      then:
+        read1: FQ1
