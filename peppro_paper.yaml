@@ -14,10 +14,9 @@ sample_modifiers:
   derive:
     attributes: [read1, read2]
     sources:
-      R: "$DATA/sra_fastq/{srr}.fastq.gz"
-      S1: "$DATA/guertin/fastq/{srr}.fastq.gz"
-      H1: "$DATA/guertin/fastq/{srr}_PE1.fastq.gz"
-      H2: "$DATA/guertin/fastq/{srr}_PE2.fastq.gz"
+      S1: "${SRAFQ}/{srr}.fastq.gz"
+      P1: "${SRAFQ}/{srr}_PE1.fastq.gz"
+      P2: "${SRAFQ}/{srr}_PE2.fastq.gz"
   imply:
     - if:
         organism: ["human", "Homo sapiens", "Human", "Homo_sapiens"]

@@ -12,7 +12,7 @@ K562_PRO-seq_60,60% subsample of K562 PRO-seq,60% subsample,PRO,human,SINGLE,0,S
 K562_PRO-seq_70,70% subsample of K562 PRO-seq,70% subsample,PRO,human,SINGLE,0,S1,,K562_PRO_70pct
 K562_PRO-seq_80,80% subsample of K562 PRO-seq,80% subsample,PRO,human,SINGLE,0,S1,,K562_PRO_80pct
 K562_PRO-seq_90,90% subsample of K562 PRO-seq,90% subsample,PRO,human,SINGLE,0,S1,,K562_PRO_90pct
-K562_PRO-seq_100,Unsampled K562 PRO-seq,none,PRO,human,SINGLE,0,R,,SRR155431[1-2]
+K562_PRO-seq_100,Unsampled K562 PRO-seq,none,PRO,human,SINGLE,0,S1,,SRR155431[1-2]
 K562_RNA-seq_0,100% K562 PRO-seq + 0% K562 RNA-seq,70M total reads,PRO,human,SINGLE,0,S1,,K562_0pctRNA
 K562_RNA-seq_10,90% K562 PRO-seq + 10% K562 RNA-seq,70M total reads,PRO,human,SINGLE,0,S1,,K562_10pctRNA
 K562_RNA-seq_20,80% K562 PRO-seq + 20% K562 RNA-seq,70M total reads,PRO,human,SINGLE,0,S1,,K562_20pctRNA
@@ -24,25 +24,25 @@ K562_RNA-seq_70,30% K562 PRO-seq + 70% K562 RNA-seq,70M total reads,PRO,human,SI
 K562_RNA-seq_80,20% K562 PRO-seq + 80% K562 RNA-seq,70M total reads,PRO,human,SINGLE,0,S1,,K562_80pctRNA
 K562_RNA-seq_90,10% K562 PRO-seq + 90% K562 RNA-seq,70M total reads,PRO,human,SINGLE,0,S1,,K562_90pctRNA
 K562_RNA-seq_100,0% K562 PRO-seq + 100% K562 RNA-seq,70M total reads,PRO,human,SINGLE,0,S1,,K562_100pctRNA
-K562_GRO-seq,K562 GRO-seq,none,GRO,human,SINGLE,0,R,,SRR1552484
-HelaS3_GRO-seq,HelaS3 GRO-seq,none,GRO,human,SINGLE,0,R,,SRR169361[1-2]
-Jurkat_ChRO-seq_1,Jurkat ChRO-seq,none,PRO,human,SINGLE,6,R,,SRR7616133
-Jurkat_ChRO-seq_2,Jurkat ChRO-seq,none,PRO,human,SINGLE,6,R,,SRR7616134
-HEK_PRO-seq,"HEK w/ osTIR1, ZNF143AID PRO-seq",Auxin,PRO,human,PAIRED,8,H1,H2,SRR8608074
-HEK_ARF_PRO-seq,"HEK w/ osTIR1, ZNF143AID, ARF PRO-seq",Auxin,PRO,human,PAIRED,8,H1,H2,SRR8608070
-H9_PRO-seq_1,H9 PRO-seq,DMSO,PRO,human,PAIRED,8,H1,H2,H9_DMSO_rep1
-H9_PRO-seq_2,H9 PRO-seq,DMSO,PRO,human,PAIRED,8,H1,H2,H9_DMSO_rep2
-H9_PRO-seq_3,H9 PRO-seq,DMSO,PRO,human,PAIRED,8,H1,H2,H9_DMSO_rep3
-H9_treated_PRO-seq_1,H9 treated PRO-seq,200 nM romidepsin,PRO,human,PAIRED,8,H1,H2,H9_200nM_romidepsin_rep1
-H9_treated_PRO-seq_2,H9 treated PRO-seq,200 nM romidepsin,PRO,human,PAIRED,8,H1,H2,H9_200nM_romidepsin_rep2
-H9_treated_PRO-seq_3,H9 treated PRO-seq,200 nM romidepsin,PRO,human,PAIRED,8,H1,H2,H9_200nM_romidepsin_rep3
-H9_PRO-seq_10,10% subset H9 PRO-seq 2,DMSO,PRO,human,PAIRED,8,H1,H2,H9_PRO-seq_10pct
-H9_PRO-seq_20,20% subset H9 PRO-seq 2,DMSO,PRO,human,PAIRED,8,H1,H2,H9_PRO-seq_20pct
-H9_PRO-seq_30,30% subset H9 PRO-seq 2,DMSO,PRO,human,PAIRED,8,H1,H2,H9_PRO-seq_30pct
-H9_PRO-seq_40,40% subset H9 PRO-seq 2,DMSO,PRO,human,PAIRED,8,H1,H2,H9_PRO-seq_40pct
-H9_PRO-seq_50,50% subset H9 PRO-seq 2,DMSO,PRO,human,PAIRED,8,H1,H2,H9_PRO-seq_50pct
-H9_PRO-seq_60,60% subset H9 PRO-seq 2,DMSO,PRO,human,PAIRED,8,H1,H2,H9_PRO-seq_60pct
-H9_PRO-seq_70,70% subset H9 PRO-seq 2,DMSO,PRO,human,PAIRED,8,H1,H2,H9_PRO-seq_70pct
-H9_PRO-seq_80,80% subset H9 PRO-seq 2,DMSO,PRO,human,PAIRED,8,H1,H2,H9_PRO-seq_80pct
-H9_PRO-seq_90,90% subset H9 PRO-seq 2,DMSO,PRO,human,PAIRED,8,H1,H2,H9_PRO-seq_90pct
-H9_PRO-seq_100,100% H9 PRO-seq 2,DMSO,PRO,human,PAIRED,8,H1,H2,H9_PRO-seq_100pct
+K562_GRO-seq,K562 GRO-seq,none,GRO,human,SINGLE,0,S1,,SRR1552484
+HelaS3_GRO-seq,HelaS3 GRO-seq,none,GRO,human,SINGLE,0,S1,,SRR169361[1-2]
+Jurkat_ChRO-seq_1,Jurkat ChRO-seq,none,PRO,human,SINGLE,6,S1,,SRR7616133
+Jurkat_ChRO-seq_2,Jurkat ChRO-seq,none,PRO,human,SINGLE,6,S1,,SRR7616134
+HEK_PRO-seq,"HEK w/ osTIR1, ZNF143AID PRO-seq",Auxin,PRO,human,PAIRED,8,P1,P2,SRR8608074
+HEK_ARF_PRO-seq,"HEK w/ osTIR1, ZNF143AID, ARF PRO-seq",Auxin,PRO,human,PAIRED,8,P1,P2,SRR8608070
+H9_PRO-seq_1,H9 PRO-seq,DMSO,PRO,human,PAIRED,8,P1,P2,H9_DMSO_rep1
+H9_PRO-seq_2,H9 PRO-seq,DMSO,PRO,human,PAIRED,8,P1,P2,H9_DMSO_rep2
+H9_PRO-seq_3,H9 PRO-seq,DMSO,PRO,human,PAIRED,8,P1,P2,H9_DMSO_rep3
+H9_treated_PRO-seq_1,H9 treated PRO-seq,200 nM romidepsin,PRO,human,PAIRED,8,P1,P2,H9_200nM_romidepsin_rep1
+H9_treated_PRO-seq_2,H9 treated PRO-seq,200 nM romidepsin,PRO,human,PAIRED,8,P1,P2,H9_200nM_romidepsin_rep2
+H9_treated_PRO-seq_3,H9 treated PRO-seq,200 nM romidepsin,PRO,human,PAIRED,8,P1,P2,H9_200nM_romidepsin_rep3
+H9_PRO-seq_10,10% subset H9 PRO-seq 2,DMSO,PRO,human,PAIRED,8,P1,P2,H9_PRO-seq_10pct
+H9_PRO-seq_20,20% subset H9 PRO-seq 2,DMSO,PRO,human,PAIRED,8,P1,P2,H9_PRO-seq_20pct
+H9_PRO-seq_30,30% subset H9 PRO-seq 2,DMSO,PRO,human,PAIRED,8,P1,P2,H9_PRO-seq_30pct
+H9_PRO-seq_40,40% subset H9 PRO-seq 2,DMSO,PRO,human,PAIRED,8,P1,P2,H9_PRO-seq_40pct
+H9_PRO-seq_50,50% subset H9 PRO-seq 2,DMSO,PRO,human,PAIRED,8,P1,P2,H9_PRO-seq_50pct
+H9_PRO-seq_60,60% subset H9 PRO-seq 2,DMSO,PRO,human,PAIRED,8,P1,P2,H9_PRO-seq_60pct
+H9_PRO-seq_70,70% subset H9 PRO-seq 2,DMSO,PRO,human,PAIRED,8,P1,P2,H9_PRO-seq_70pct
+H9_PRO-seq_80,80% subset H9 PRO-seq 2,DMSO,PRO,human,PAIRED,8,P1,P2,H9_PRO-seq_80pct
+H9_PRO-seq_90,90% subset H9 PRO-seq 2,DMSO,PRO,human,PAIRED,8,P1,P2,H9_PRO-seq_90pct
+H9_PRO-seq_100,100% H9 PRO-seq 2,DMSO,PRO,human,PAIRED,8,P1,P2,H9_PRO-seq_100pct
