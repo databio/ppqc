@@ -24,11 +24,3 @@ sample_modifiers:
       then:
         genome: hg38
         prealignments: human_rDNA
-    - if:
-        umi_status: true_8
-      then:
-        umi_len: 8
-    - if:
-        umi_status: true_6
-      then:
-        umi_len: 6
